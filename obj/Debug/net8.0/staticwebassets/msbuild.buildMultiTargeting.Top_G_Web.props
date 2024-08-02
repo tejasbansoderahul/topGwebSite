@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Top_G_Web.props" />
+</Project>

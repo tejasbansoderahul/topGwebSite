@@ -1,0 +1,161 @@
+﻿@{
+    ViewData["Title"] = "Course Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Ensure body takes up full height and flex container */
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #15244c; /* Navy blue background */
+        color: #ffffff; /* White text color */
+        font-family: Arial, sans-serif; /* Ensure consistent font */
+    }
+
+        /* Flex-grow for main content area to push footer down */
+        body > .container, .d-flex.flex-column {
+            flex: 1;
+        }
+
+    /* Custom card styling */
+    .card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #1a3365; /* Darker shade of navy */
+        color: #ffffff; /* White text color */
+        transition: transform 0.3s ease; /* Add transform transition */
+    }
+
+        .card:hover {
+            transform: translateY(-5px); /* Lift card on hover */
+        }
+
+    .card-header {
+        background-color: #003366; /* Dark navy blue */
+        color: #ffffff;
+        border-radius: 10px 10px 0 0;
+        padding: 1rem;
+        text-transform: uppercase; /* Uppercase text */
+    }
+
+    .card-footer {
+        background-color: #1a3365; /* Darker shade of navy */
+        border-radius: 0 0 10px 10px;
+        padding: 1rem;
+    }
+
+    .btn-primary {
+        background-color: #ff6347;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #e5533d;
+        }
+
+    .course-highlight {
+        color: #ff6347; /* Highlight color */
+    }
+
+    .course-details p {
+        margin-bottom: 10px;
+    }
+
+    .course-details .list-group-item {
+        background-color: #003366; /* Dark navy blue for list items */
+        border-color: #003366;
+        color: #ffffff;
+    }
+
+        .course-details .list-group-item h4 {
+            color: #ff6347; /* Header color */
+        }
+
+    .course-terms {
+        color: #ff6347; /* Terms color */
+        font-weight: bold;
+    }
+
+    .divider {
+        border-top: 1px solid #ffffff; /* White divider */
+        margin: 20px 0;
+    }
+</style>
+
+<div class="container">
+    <div class="card mt-5">
+        <div class="card-header text-center">
+            Forex Training Course Details
+        </div>
+        <div class="card-body">
+            <p class="course-highlight text-center">!!! 5 August Batch Admission starts !!!!</p>
+            <div class="course-details">
+                <p><strong>Duration:</strong> 25 days</p>
+                <p><strong>Timings:</strong> 9 pm to 10 pm IST ⏰</p>
+                <p><strong>Platform:</strong> Zoom live classes 📚</p>
+                <p><strong>Free lifetime VIP group access 🚀🔥</strong></p>
+                <p><strong>Fees:</strong> 19999₹ but we are offering a <strong>20% discount</strong> for the 5 August batch.</p>
+                <p>So you can get this course for just <strong>15999₹</strong> only. Half now <strong>7999₹</strong> and half <strong>7999₹</strong> before class starts ‼✅</p>
+
+                <h3 class="course-highlight text-center">‼COURSE DETAILS ‼📚</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <h4>1. Basics of Forex (Part 1)</h4>
+                        <p>Introduction to Forex, Major Participant, how to use trading software, Pips, Spread, Currency Correlation</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>2. Basics of Forex (Part 2)</h4>
+                        <p>Major types of Analysis, basics of candlestick, types of trend, Risk Management</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>3. Structure & SMC Levels Markings</h4>
+                        <p>123 method / ICI method / Trend Joining Levels</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>4. Change of Character / RBS, SBR, QML, DT, DB Levels</h4>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>5. One Candle Retracement & Double Change of Character</h4>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>6. What is Internal & External Structure Markings & its levels</h4>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>7. SMC Concepts (Part 1)</h4>
+                        <p>Supply & Demand / Orderblocks / Breakerblock</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>8. SMC Concepts (Part 2)</h4>
+                        <p>IPDA, FVG, Imbalance, Inefficiency</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>9. Top Down Analysis</h4>
+                        <p>Higher to Lower Timeframe</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>10. SMC Entry Models & Aggressive Entries</h4>
+                        <p>Price Reversals / Inducement / Liquidity</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>11. Putting it all together (Revision)</h4>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>12. News Trading, Data Analysis & Fundamentals</h4>
+                    </li>
+                    <li class="list-group-item">
+                        <h4>13. How to Master trading psychology</h4>
+                    </li>
+                </ul>
+                <p>Recording will not be provided!</p>
+                <div class="divider"></div>
+                <p class="course-terms text-center">Terms & Conditions Applied</p>
+                <p class="course-terms text-center">No Refunds</p>
+                <p class="course-terms text-center">No Transfer to Other Batches</p>
+            </div>
+        </div>
+    </div>
+</div>
